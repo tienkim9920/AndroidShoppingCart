@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:id="@+id/nav_shopping"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/black">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="REPRESENT"
+                android:textStyle="bold"
+                android:textSize="45dp"
+                android:textColor="#fff"
+                android:gravity="center"/>
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginVertical="20dp"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:orientation="vertical"-->
+<!--            android:background="@drawable/bgfunction"-->
+<!--            android:padding="5dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="NEW PRODUCTS"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="24dp"-->
+<!--                android:textColor="#7E7E7E"-->
+<!--                android:gravity="center"/>-->
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="210dp"-->
+<!--                android:id="@+id/recycler_view"-->
+<!--                android:layout_marginTop="10dp">-->
+
+<!--            </androidx.recyclerview.widget.RecyclerView>-->
+
+<!--        </LinearLayout>-->
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="580dp"
+            >
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:id="@+id/activityHat"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:background="@drawable/hatedit"
+                        android:orientation="vertical"
+                        android:layout_marginHorizontal="10dp"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hat"
+                            android:textColor="#fff"
+                            android:textStyle="italic"
+                            android:textSize="40sp"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/activityTShirt"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:background="@drawable/topedit"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginHorizontal="10dp"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="T-shirt"
+                            android:textColor="#fff"
+                            android:textStyle="italic"
+                            android:textSize="40sp"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:background="@drawable/bottomedit"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginHorizontal="10dp"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Trousers"
+                            android:textColor="#fff"
+                            android:textStyle="italic"
+                            android:textSize="40sp"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:background="@drawable/sneakeredit"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="110dp"
+                        android:orientation="vertical"
+                        android:layout_marginHorizontal="10dp"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sneaker"
+                            android:textColor="#fff"
+                            android:textStyle="italic"
+                            android:textSize="40sp"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        app:itemTextColor="@color/nav_color"
+        app:itemIconTint="@color/nav_color"
+        app:menu="@menu/bottom_navigation" />
+
+
+</RelativeLayout>
