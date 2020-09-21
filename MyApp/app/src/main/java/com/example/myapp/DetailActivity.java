@@ -6,28 +6,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.LinearLayout;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class TShirtActivity extends AppCompatActivity {
-
-    LinearLayout flannel;
+public class DetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_t_shirt);
-
-        flannel = findViewById(R.id.flannel);
-
-        flannel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(TShirtActivity.this, DetailActivity.class));
-            }
-        });
+        setContentView(R.layout.activity_detail);
 
         //Di chuyen Activity
         BottomNavigationView bottom_navigation = findViewById(R.id.bottom_navigation);

@@ -20,7 +20,6 @@ import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
 
-    BottomNavigationView bottom_navigation;
     LinearLayout activityTShirt;
     LinearLayout activityHat;
 
@@ -67,7 +66,7 @@ public class HomeActivity extends AppCompatActivity {
 
         //Anh Xa
         //Di chuyen Activity
-        bottom_navigation = findViewById(R.id.bottom_navigation);
+        BottomNavigationView bottom_navigation = findViewById(R.id.bottom_navigation);
 
         bottom_navigation.setSelectedItemId(R.id.nav_home);
 
