@@ -30,7 +30,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="415dp"
+            android:layout_height="350dp"
             >
 
             <LinearLayout
@@ -47,7 +47,7 @@
                     android:orientation="vertical">
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="10dp"
+                        android:layout_height="5dp"
                         android:layout_marginVertical="10dp"
                         android:background="@drawable/textlines">
                     </LinearLayout>
@@ -150,7 +150,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="10dp"
-                        android:layout_marginVertical="10dp"
+                        android:layout_marginVertical="5dp"
                         android:background="@drawable/textlines">
                     </LinearLayout>
 
@@ -265,7 +265,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:layout_marginVertical="10dp"
+                android:layout_marginVertical="5dp"
                 android:background="@drawable/textlines">
             </LinearLayout>
 

@@ -8,14 +8,197 @@
     <LinearLayout
         android:id="@+id/nav_profile"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
 
-        <TextView
-            android:text="Profile"
-            android:layout_height="match_parent"
+        <LinearLayout
+            android:paddingVertical="10dp"
             android:layout_width="match_parent"
-            android:textSize="30sp"
-            android:gravity="center"/>
+            android:layout_height="205dp"
+            android:orientation="vertical"
+            android:background="@drawable/bgfunction"
+            >
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/iconuser"
+                android:background="@drawable/boder"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kim Tiền"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginVertical="5dp"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="13dp"
+                    android:layout_height="5dp"
+                    android:background="@drawable/textlines">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="10dp"
+                    android:gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_baseline_email_24"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="tienkim9920"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="30dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginVertical="5dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="13dp"
+                    android:layout_height="5dp"
+                    android:background="@drawable/textlines">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="10dp"
+                    android:gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_baseline_stay_primary_portrait_24"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0763557366"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="30dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginVertical="5dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="13dp"
+                    android:layout_height="5dp"
+                    android:background="@drawable/textlines">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="10dp"
+                    android:gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_baseline_add_location_24"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phan Huy Ích"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="30dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="5dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="13dp"
+                    android:layout_height="5dp"
+                    android:background="@drawable/textlines">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Log Out"
+                        android:textSize="22dp"
+                        android:textColor="#fff"
+                        android:background="#2196F3"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
 
     </LinearLayout>
 
